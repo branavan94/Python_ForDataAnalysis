@@ -1,0 +1,11 @@
+###### Requirements without Version Specifiers
+xgboost
+seaborn
+pandas
+Django
+django-filter
+djangorestframework
+pickle
+Markdown
+requests
+scikit-learn
