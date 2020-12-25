@@ -17,7 +17,7 @@ from apps.endpoints.serializers import MLAlgorithmStatusSerializer
 
 from apps.endpoints.models import MLRequest
 from apps.endpoints.serializers import MLRequestSerializer
-
+from django.shortcuts import render
 class EndpointViewSet(
 	mixins.RetrieveModelMixin, mixins.ListModelMixin, viewsets.GenericViewSet
 	):
@@ -96,4 +96,4 @@ class PredictView(views.APIView):
 		prediction["request_id"] = ml_request.id
 
 		return Response(prediction)
- 
+
