@@ -48,3 +48,4 @@ class MLTests(TestCase):
 
 		self.assertEqual(len(registry.endpoints),1)
 
+		
