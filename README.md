@@ -31,11 +31,27 @@ The second dataset will be used to build a transcoding time prediction model and
 
 ## 🎯 Objectives
 
-### Data Visualization 
+## Data Visualization 
+
+### Target Variable Distribution
 ![GitHub Logo](/images/target.png)
 
+### Target Variable Distribution after scaling
+![GitHub Logo](/images/target2.png)
+### Correlation Heatmap
+![GitHub Logo](/images/heatmap.png)
 
-### 
+## Model implementation  
+### Xgb Regressor performance
+![GitHub Logo](/images/xgbperf.png)
 
+## API Django
+### Creation of an Endpoint for ML models
+![GitHub Logo](/images/endpoint.png)
 
+### Creation of the Xgb Regressor model
+![GitHub Logo](/images/ml_aglo.png)
+
+### Prediction request
+![GitHub Logo](/images/predict.png)
 
