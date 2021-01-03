@@ -32,18 +32,24 @@ The second dataset will be used to build a transcoding time prediction model and
 ## 🎯 Objectives
 
 ## Data Visualization 
+The Data visualization part helped us see the target distribution, other variables distribution in order to modify them if needed.
+On the next two plots, we can clearly see that the target variable needed to be scaled. 
 
 ### Target Variable Distribution
 ![GitHub Logo](/images/target.png)
 
 ### Target Variable Distribution after scaling
 ![GitHub Logo](/images/target2.png)
+
+Furthermore, we could visualize the correlation between the target variable and some of the features such as umem (total codec allocated memory for transcoding) which actually makes sense since a bigger allocated memory for transcoding would increase in some ways the time for it to be done.
 ### Correlation Heatmap
 ![GitHub Logo](/images/heatmap.png)
 
 ## Model implementation  
 ### Xgb Regressor performance
 ![GitHub Logo](/images/xgbperf.png)
+### Comparison with linear Regression
+![GitHub Logo](/images/lm.PNG)
 
 ## API Django
 ### Creation of an Endpoint for ML models
