@@ -55,13 +55,13 @@ We can compare our actual model with a linear regression which performs well, bu
 ![linear_reg_2](/images/lm2.png)
 
 ## API Django
-Our goal is to provide a time prediction for each video given by a user. We'll create a Django Api model that can help us implement an endpoint to use any ML model to our actual problem.
+Our goal is to provide a time prediction for each video given by a user. We'll create a Django Api model that can help us implement an endpoint to use any ML model to our actual problem. For that to be possible, we saved our models as pickle files. Ultimately, we load them on server startup. 
 ### Creation of an Endpoint for ML models
 ![GitHub Logo](/images/endpoint.png)
 
 ### Creation of the Xgb Regressor model
 ![GitHub Logo](/images/ml_aglo.png) <br>
-Now that we have created our class and instance of ML model, we can try to make prediction through our API.
+Now that we have created our class and instance of ML model, we can try to make predictions through our API.
 ### Prediction request
 ![GitHub Logo](/images/predict.png)
 
