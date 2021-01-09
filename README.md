@@ -11,10 +11,10 @@ video characteristics for 1.6 million youtube videos.
 It contains :
 * YouTube video id 
 * duration 
-* bitrate(total in Kbits)
-* bitrate(video bitrate in Kbits) 
-* height(in pixle)
-* width(in pixles)
+* bitrate (total in Kbits)
+* bitrate (video bitrate in Kbits) 
+* height (in pixels)
+* width (in pixels)
 * framrate
 * estimated framerate
 * codec
