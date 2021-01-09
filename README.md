@@ -32,8 +32,8 @@ The second dataset will be used to build a transcoding time prediction model and
 ## 🎯 Objectives
 
 ## Data Visualization 
-The Data visualization part helped us see the target distribution, other variables distribution in order to modify them if needed.
-On the next two plots, we can clearly see that the target variable needed to be scaled. 
+The Data visualization part helped us see the target distribution, and analyze our features.
+On the next two plots, we can clearly see that the target variable will need to be scaled. 
 
 ### Target Variable Distribution
 ![GitHub Logo](/images/target.png)
@@ -46,18 +46,21 @@ Furthermore, we could visualize the correlation between the target variable and 
 ![GitHub Logo](/images/heatmap.png)
 
 ## Model implementation  
+Now that we've analyzed and plot some of our features, we implemented our model which quickly fitted to our data. 
 ### Xgb Regressor performance
 ![GitHub Logo](/images/xgbperf.png)
+We can compare our actual model with a linear regression which performs well, but not as good as with our Xgb Regressor.
 ### Comparison with linear Regression
 ![GitHub Logo](/images/lm.PNG)
 
 ## API Django
+Our goal is to provide a time prediction for each video given by a user. We'll create a Django Api model that can help us implement an endpoint to use any ML model to our actual problem.
 ### Creation of an Endpoint for ML models
 ![GitHub Logo](/images/endpoint.png)
 
 ### Creation of the Xgb Regressor model
 ![GitHub Logo](/images/ml_aglo.png)
-
+Now that we have created our class and instance of ML model, we can try to make prediction through our API.
 ### Prediction request
 ![GitHub Logo](/images/predict.png)
 
