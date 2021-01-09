@@ -59,7 +59,7 @@ Our goal is to provide a time prediction for each video given by a user. We'll c
 ![GitHub Logo](/images/endpoint.png)
 
 ### Creation of the Xgb Regressor model
-![GitHub Logo](/images/ml_aglo.png)
+![GitHub Logo](/images/ml_aglo.png) </br>
 Now that we have created our class and instance of ML model, we can try to make prediction through our API.
 ### Prediction request
 ![GitHub Logo](/images/predict.png)
