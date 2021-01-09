@@ -1,7 +1,7 @@
 # Transcoding Time Prediction 
 ## 🐣 Introduction
-We are provided a data set coming from the machine learning repository UCI, a center that give us the opportunity to have access to more than a 500 data sets.
-Our goal is to analyze those data, visualize it, and implement a machine learning model that can be used through a Django API.
+We got a dataset provided by UCI called Online Video Characteristics and Transcoding Time Dataset.
+Our goal is to analyze those data, visualize them, and implement a machine learning model that can be used through a Django API.
 
 About the dataset: <a href="https://archive.ics.uci.edu/ml/datasets/Online+Video+Characteristics+and+Transcoding+Time+Dataset" target="_blank">(Get the Data here)</a>
 
