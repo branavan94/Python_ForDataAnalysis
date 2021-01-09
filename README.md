@@ -48,7 +48,7 @@ Furthermore, we could visualize the correlation between the target variable and 
 ## Model implementation  
 Now that we've analyzed and plot some of our features, we implemented our model which quickly fitted to our data. 
 ### Xgb Regressor performance
-![GitHub Logo](/images/xgbperf.png)
+![GitHub Logo](/images/xgbperf.png)<br>
 We can compare our actual model with a linear regression which performs well, but not as good as with our Xgb Regressor.
 ### Comparison with linear Regression
 ![GitHub Logo](/images/lm.PNG)
@@ -59,7 +59,7 @@ Our goal is to provide a time prediction for each video given by a user. We'll c
 ![GitHub Logo](/images/endpoint.png)
 
 ### Creation of the Xgb Regressor model
-![GitHub Logo](/images/ml_aglo.png) </br>
+![GitHub Logo](/images/ml_aglo.png) <br>
 Now that we have created our class and instance of ML model, we can try to make prediction through our API.
 ### Prediction request
 ![GitHub Logo](/images/predict.png)
