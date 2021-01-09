@@ -51,7 +51,8 @@ Now that we've analyzed and plot some of our features, we implemented our model 
 ![GitHub Logo](/images/xgbperf.png)<br>
 We can compare our actual model with a linear regression which performs well, but not as good as with our Xgb Regressor.
 ### Comparison with linear Regression
-![GitHub Logo](/images/lm.PNG)
+![linear_reg_1](/images/lm.png)
+![linear_reg_2](/images/lm2.png)
 
 ## API Django
 Our goal is to provide a time prediction for each video given by a user. We'll create a Django Api model that can help us implement an endpoint to use any ML model to our actual problem.
